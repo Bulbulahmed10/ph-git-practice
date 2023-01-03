@@ -144,7 +144,46 @@ header{
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
+    .header-left h1{
+        font-size: 16px;
+    }
+
+    .header-right nav li{
+        margin-right: 15px;
+        font-size: 12px;
+    }
+
+    .header-right nav li img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .header-right nav span {
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    .header-right div p{
+        padding: 2px 3px;
+    }
+
+    .header-right div p span{
+        font-size: 18px;
+    }
+
+    .header-right div button{
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+
+    .client-img{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 830px) {
     .header-left{
         margin-left: 40px;
     }
@@ -156,5 +195,15 @@ header{
     .header-span{
         display: block;
         margin-right: 40px;
+    }
+}
+
+@media (max-width: 430px) {
+    .header-left{
+     margin-left: 0px; 
+    }
+    
+    .header-span{
+        margin-right: 10px;
     }
 }
